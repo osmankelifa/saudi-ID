@@ -64,12 +64,13 @@ export default function Services() {
             />
           </svg>
           <p className="text-gray-700 mb-4">
-            Saudi-ID is more than just a verification tool – it's a gateway to a
-            more seamless, secure, and integrated digital lifestyle. Whether
-            you're managing your business or safeguarding personal data, our
-            advanced technology ensures that your identity is always protected.
-            Streamline your daily activities, boost your efficiency, and stay
-            ahead of the curve with the power of Saudi-ID at your fingertips.
+            Saudi-ID is more than just a verification tool it&apos;s a gateway
+            to a more seamless, secure, and integrated digital lifestyle.
+            Whether you&apos;re managing your business or safeguarding personal
+            data, our advanced technology ensures that your identity is always
+            protected. Streamline your daily activities, boost your efficiency,
+            and stay ahead of the curve with the power of Saudi-ID at your
+            fingertips.
           </p>
 
           <a
