@@ -68,10 +68,14 @@ export default function About() {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Web Design</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  Secure Digital Identification
+                </h3>
                 <p className="text-gray-600">
-                  Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                  eget.
+                  Access various online services securely by verifying your
+                  identity with Saudi-ID. Whether for banking, government
+                  services, or healthcare portals, enjoy a seamless
+                  authentication process that protects your personal data.
                 </p>
               </div>
 
@@ -86,10 +90,14 @@ export default function About() {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Marketing</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  E-signatures for Legal Transactions
+                </h3>
                 <p className="text-gray-600">
-                  Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                  eget.
+                  Sign contracts and documents digitally with ease. Saudi-ID’s
+                  e-signature service ensures your transactions are legally
+                  binding and secure, streamlining approvals for everything from
+                  business deals to personal agreements.
                 </p>
               </div>
 
@@ -104,10 +112,14 @@ export default function About() {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">SEO</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  Identity Protection for Online Services
+                </h3>
                 <p className="text-gray-600">
-                  Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                  eget.
+                  Safeguard your online interactions with advanced identity
+                  protection. Saudi-ID ensures that your personal information is
+                  shielded from fraud and misuse, giving you peace of mind when
+                  accessing sensitive services..
                 </p>
               </div>
 
@@ -122,10 +134,15 @@ export default function About() {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Graphics Design</h3>
+                <h3 className="text-xl font-semibold mb-2">
+                  Mobile and Desktop Accessibility
+                </h3>
                 <p className="text-gray-600">
-                  Nullam quis libero in lorem accumsan sodales. Nam vel nisi
-                  eget.
+                  Use Saudi-ID across both mobile and desktop devices to
+                  securely access services on the go. Whether you’re verifying
+                  your identity for a financial transaction or accessing
+                  healthcare information, Saudi-ID provides a flexible and
+                  secure solution.
                 </p>
               </div>
             </div>

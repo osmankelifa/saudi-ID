@@ -26,7 +26,6 @@ const Hero = () => {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
       loop={true}
-      loopAdditionalSlides={3} // Ensures smooth looping back to the 1st slide
       autoplay={{
         delay: 5000, // Delay between transitions in milliseconds (5000 = 5 seconds)
         disableOnInteraction: false, // Autoplay will not stop after interaction (like swiping manually)
