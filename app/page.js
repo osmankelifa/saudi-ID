@@ -24,7 +24,7 @@ export default function Home() {
       <About />
       {/* <NumberBlock /> */}
       <Testimonials />
-      <FeaturesList />
+      {/* <FeaturesList /> */}
       <NewsSection />
       <LogoArea />
 
