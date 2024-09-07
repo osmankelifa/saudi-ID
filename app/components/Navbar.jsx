@@ -57,20 +57,20 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="#about"
-                onClick={closeMenu}
-                className="relative uppercase text-lg font-cabin w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-cente"
-              >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="#services"
                 onClick={closeMenu}
                 className="relative uppercase text-lg font-cabin w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-cente"
               >
                 About
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#about"
+                onClick={closeMenu}
+                className="relative uppercase text-lg font-cabin w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-cente"
+              >
+                Services
               </Link>
             </li>
             <li>
