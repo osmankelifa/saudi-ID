@@ -14,6 +14,7 @@ export default function Services() {
               <Image
                 src="/images/learn-img.jpg"
                 alt="Service Image"
+                priority
                 width={700}
                 height={500}
                 className="object-cover"

@@ -58,6 +58,7 @@ const Hero = () => {
               src="/images/kufiya.png"
               alt="Image 3"
               fill
+              priority
               className="object-contain object-bottom"
             />
           </div>
@@ -88,6 +89,7 @@ const Hero = () => {
               src="/images/girl.png"
               alt="Image 4"
               fill
+              loading="eager"
               className="object-contain object-bottom"
             />
           </div>
@@ -117,6 +119,7 @@ const Hero = () => {
               src="/images/hijab.png"
               alt="Image 1"
               fill
+              loading="eager"
               className="object-contain object-bottom"
             />
           </div>
@@ -146,6 +149,7 @@ const Hero = () => {
               src="/images/green.png"
               alt="Image 4"
               fill
+              loading="eager"
               className="object-contain object-bottom"
             />
           </div>
