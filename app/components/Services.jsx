@@ -2,8 +2,11 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section id="services" className="bg-white py-16">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4">
+    <section
+      id="services"
+      className="h-[90dvh] flex items-center bg-white py-16"
+    >
+      <div className="container  mx-auto flex flex-col lg:flex-row items-center justify-between px-4">
         {/* Left Column: Image and SVG */}
         <div className="relative w-full lg:w-7/12 mb-8 lg:mb-0">
           <div className="relative">
@@ -26,13 +29,12 @@ export default function Services() {
         {/* Right Column: Text */}
 
         <div className="w-full lg:w-5/12">
-          <h1 className="text-5xl font-extrabold text-slate-800 mb-4 leading-tight drop-shadow-md">
+          <h1 className="text-3xl md:text-5xl font-extrabold text-slate-800 mb-4 sm:justify-center text-center md:text-start leading-tight drop-shadow-md">
             Revolutionize Your <span className="text-green-600">Identity</span>{" "}
-            <br />
             with Saudi-ID
           </h1>
           <svg
-            className="absolute "
+            className="absolute lg:block hidden "
             viewBox="0 0 900 700"
             xmlns="http://www.w3.org/2000/svg"
             style={{ zIndex: 1 }}
@@ -74,12 +76,12 @@ export default function Services() {
             fingertips.
           </p>
 
-          <a
+          {/* <a
             href="#"
             className="inline-block bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition"
           >
             Learn More <i className="fa fa-angle-right" aria-hidden="true"></i>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

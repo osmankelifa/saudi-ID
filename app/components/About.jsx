@@ -7,7 +7,7 @@ export default function About() {
         <div className="flex flex-col lg:flex-row">
           {/* Left Column */}
           <div className="lg:w-1/2 mb-8 lg:mt-20">
-            <h2 className="text-4xl font-bold mb-4 leading-tight">
+            <h2 className="lg:text-4xl text-3xl md:text-start text-center font-bold mb-4 leading-tight">
               Explore The Services <br />
               We Offer with Saudi-ID
             </h2>
@@ -26,7 +26,7 @@ export default function About() {
               id="bg-services"
               width="100%"
               viewBox="0 0 1000 800"
-              className="absolute -left-[800px] inset-0 z-0"
+              className="absolute lg:block hidden -left-[800px] inset-0 z-0"
             >
               <defs>
                 <linearGradient
@@ -58,16 +58,17 @@ export default function About() {
 
             <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Card 1 */}
-              <div className="p-6 bg-white shadow-xl rounded-lg transform transition-transform hover:scale-105">
+              <div className="p-6 bg-white shadow-xl rounded-lg transform transition-transform lg:hover:scale-105">
                 <div className="w-16 h-16 mx-auto mb-4">
                   <Image
-                    src="/images/web-design.png"
-                    alt="Web Design"
+                    src="/images/graphics-design.png"
+                    alt="Graphics Design"
                     width={100}
                     height={100}
                     className="object-cover"
                   />
                 </div>
+
                 <h3 className="text-xl font-semibold mb-2">
                   Secure Digital Identification
                 </h3>
@@ -80,7 +81,7 @@ export default function About() {
               </div>
 
               {/* Card 2 */}
-              <div className="p-6 bg-white shadow-xl rounded-lg transform transition-transform hover:scale-105">
+              <div className="p-6 bg-white shadow-xl rounded-lg transform transition-transform lg:hover:scale-105">
                 <div className="w-16 h-16 mx-auto mb-4">
                   <Image
                     src="/images/marketing.png"
@@ -102,7 +103,7 @@ export default function About() {
               </div>
 
               {/* Card 3 */}
-              <div className="p-6 bg-white shadow-xl rounded-lg transform transition-transform hover:scale-105">
+              <div className="p-6 bg-white shadow-xl rounded-lg transform transition-transform lg:hover:scale-105">
                 <div className="w-16 h-16 mx-auto mb-4">
                   <Image
                     src="/images/seo.png"
@@ -124,11 +125,11 @@ export default function About() {
               </div>
 
               {/* Card 4 */}
-              <div className="p-6 bg-white shadow-xl rounded-lg transform transition-transform hover:scale-105">
+              <div className="p-6 bg-white shadow-xl rounded-lg transform transition-transform lg:hover:scale-105">
                 <div className="w-16 h-16 mx-auto mb-4">
                   <Image
-                    src="/images/graphics-design.png"
-                    alt="Graphics Design"
+                    src="/images/web-design.png"
+                    alt="Web Design"
                     width={100}
                     height={100}
                     className="object-cover"

@@ -20,7 +20,6 @@ const Hero = () => {
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}
-      navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
@@ -34,123 +33,108 @@ const Hero = () => {
     >
       {/* Slide 1 */}
       <SwiperSlide>
-        <div className="w-full grid grid-cols-2 h-[70vh] bg-green-300">
-          <div className="flex flex-col items-start pl-40 justify-center">
-            <h1 className="text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-md">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 h-[60vh] md:h-[70vh] bg-green-300">
+          <div className="flex flex-col items-start p-6 md:pl-40 justify-center">
+            <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-md">
               Unlock Your <br /> Future with{" "}
               <span className="text-green-500">Saudi-ID</span>
             </h1>
-            <p className="mb-6 text-xl text-white/90 leading-relaxed">
+            <p className="mb-6 text-lg md:text-xl text-white/90 leading-relaxed">
               A seamless solution for your daily life. <br /> Elevate your
               identity verification with the most advanced technology.
             </p>
-            <a
-              href="#"
-              className="inline-block bg-white text-blue-500 py-3 px-6 rounded-lg font-semibold hover:bg-blue-100 transition-all duration-300 ease-in-out shadow-lg"
-            >
-              Learn More
-            </a>
           </div>
 
-          <div className="relative w-full h-full">
-            <Image
-              src="/images/kufiya.png"
-              alt="Image 3"
-              fill
-              priority
-              className="object-contain object-bottom"
-            />
+          {/* Image - Hidden on mobile, visible on desktop */}
+          <div className="relative w-[360px] -right-16 h-full hidden md:block">
+            <div className="relative w-full  h-full ">
+              <Image
+                src="/images/kufiya.png"
+                alt="Image 3"
+                fill
+                priority
+                className="object-contain object-bottom"
+              />
+            </div>
           </div>
         </div>
       </SwiperSlide>
-
-      {/* Slide 2 - Enlarged Image with better alignment */}
+      {/* Slide 2 */}
       <SwiperSlide>
-        <div className="w-full grid grid-cols-2 h-[70vh] bg-green-300">
-          <div className="flex flex-col items-start pl-40 justify-center">
-            <h1 className="text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-md">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 h-[60vh] md:h-[70vh] bg-green-300">
+          <div className="flex flex-col items-start p-6 md:pl-40 justify-center">
+            <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-md">
               Unlock Your <br /> Future with{" "}
               <span className="text-blue-200">Saudi-ID</span>
             </h1>
-            <p className="mb-6 text-xl text-white/90 leading-relaxed">
+            <p className="mb-6 text-lg md:text-xl text-white/90 leading-relaxed">
               A seamless solution for your daily life. <br /> Elevate your
               identity verification with the most advanced technology.
             </p>
-            <a
-              href="#"
-              className="inline-block bg-white text-blue-500 py-3 px-6 rounded-lg font-semibold hover:bg-blue-100 transition-all duration-300 ease-in-out shadow-lg"
-            >
-              Learn More
-            </a>
           </div>
-          <div className="relative w-full h-full">
-            <Image
-              src="/images/girl.png"
-              alt="Image 4"
-              fill
-              loading="eager"
-              className="object-contain object-bottom"
-            />
+
+          <div className="relative w-full h-full hidden md:block">
+            <div className="relative w-full h-full max-w-[50%] max-h-[100%]">
+              <Image
+                src="/images/girl.png"
+                alt="Image 4"
+                fill
+                loading="eager"
+                className="object-contain object-bottom"
+              />
+            </div>
           </div>
         </div>
       </SwiperSlide>
-
       {/* Slide 3 */}
       <SwiperSlide>
-        <div className="w-full grid grid-cols-2 h-[70vh] bg-green-300">
-          <div className="flex flex-col items-start pl-40 justify-center">
-            <h1 className="text-5xl font-bold mb-4">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 h-[60vh] md:h-[70vh] bg-green-300">
+          <div className="flex flex-col items-start p-6 md:pl-40 justify-center">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Unlock Your <br /> Future with Saudi-ID
             </h1>
-            <p className="mb-6 text-2xl">
+            <p className="mb-6 text-lg md:text-2xl">
               A seamless solution for your daily life. <br /> Elevate your
               identity verification.
             </p>
-            <a
-              href="#"
-              className="inline-block bg-white text-blue-500 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200"
-            >
-              Learn More
-            </a>
           </div>
-          <div className="relative w-full h-full">
-            <Image
-              src="/images/hijab.png"
-              alt="Image 1"
-              fill
-              loading="eager"
-              className="object-contain object-bottom"
-            />
+
+          <div className="relative w-[400px] -right-16 h-full hidden md:block">
+            <div className="relative w-full  h-full ">
+              <Image
+                src="/images/hijab.png"
+                alt="Image 1"
+                fill
+                loading="eager"
+                className="object-contain object-bottom"
+              />
+            </div>
           </div>
         </div>
       </SwiperSlide>
-
       {/* Slide 4 */}
       <SwiperSlide>
-        <div className="w-full grid grid-cols-2 h-[70vh] bg-green-300">
-          <div className="flex flex-col items-start pl-40 justify-center">
-            <h1 className="text-5xl font-bold mb-4">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 h-[60vh] md:h-[70vh] bg-green-300">
+          <div className="flex flex-col items-start p-6 md:pl-40 justify-center">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Unlock Your <br /> Future with Saudi-ID
             </h1>
-            <p className="mb-6 text-2xl">
+            <p className="mb-6 text-lg md:text-2xl">
               A seamless solution for your daily life. <br /> Elevate your
               identity verification.
             </p>
-            <a
-              href="#"
-              className="inline-block bg-white text-blue-500 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200"
-            >
-              Learn More
-            </a>
           </div>
-          <div className="relative w-full h-full">
-            <Image
-              src="/images/green.png"
-              alt="Image 4"
-              fill
-              loading="eager"
-              className="object-contain object-bottom"
-            />
+
+          <div className="relative w-full h-full hidden md:block">
+            <div className="relative w-full h-full max-w-[100%] max-h-[100%]">
+              <Image
+                src="/images/green.png"
+                alt="Image 4"
+                fill
+                loading="eager"
+                className="object-contain object-bottom"
+              />
+            </div>
           </div>
         </div>
       </SwiperSlide>

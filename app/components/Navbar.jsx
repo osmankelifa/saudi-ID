@@ -6,6 +6,10 @@ import Image from "next/image";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const closeMenu = () => {
+    setIsOpen(false); // Closes the menu when Link link is clicked
+  };
+
   return (
     <nav className="bg-transparent bg-gradient-to-t from-green-300 to-white    z-50 shadow-md">
       <div className="container  mx-auto px-4 py-8 flex justify-end   items-center">
@@ -18,7 +22,7 @@ export default function Navbar() {
         />
 
         <button
-          className="md:hidden text-gray-700 focus:outline-none"
+          className="md:hidden text-gray-700 z-50 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg
@@ -38,33 +42,54 @@ export default function Navbar() {
         </button>
 
         <div
-          className={`md:flex md:items-center ${isOpen ? "block" : "hidden"}`}
+          className={`${
+            isOpen ? "block" : "hidden"
+          } md:flex md:items-center md:space-x-6 text-gray-700 absolute top-20 left-0 right-0 md:static backdrop-blur-xl md:bg-transparent z-20 md:z-auto`}
         >
           <ul className="flex flex-col text-xl md:flex-row md:space-x-6 space-y-2 md:space-y-0 text-gray-700">
             <li>
-              <Link href="/" className="hover:text-blue-500">
+              <Link
+                href="/"
+                className="relative uppercase text-lg font-cabin w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-cente"
+              >
                 Home
               </Link>
             </li>
             <li>
-              <a href="#services" className="hover:text-blue-500">
+              <Link
+                href="#about"
+                onClick={closeMenu}
+                className="relative uppercase text-lg font-cabin w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-cente"
+              >
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#about" className="hover:text-blue-500">
+              <Link
+                href="#services"
+                onClick={closeMenu}
+                className="relative uppercase text-lg font-cabin w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-cente"
+              >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#news" className="hover:text-blue-500">
+              <Link
+                href="#news"
+                onClick={closeMenu}
+                className="relative uppercase text-lg font-cabin w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-cente"
+              >
                 News
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#contact" className="hover:text-blue-500">
+              <Link
+                href="#contact"
+                onClick={closeMenu}
+                className="relative uppercase text-lg font-cabin w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-cente"
+              >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
