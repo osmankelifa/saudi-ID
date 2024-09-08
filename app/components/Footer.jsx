@@ -76,7 +76,7 @@ export default function Footer() {
                 </ul>
               </div> */}
               {/* Follow Us Section */}
-              <div className="w-full mt-8">
+              {/* <div className="w-full mt-8">
                 <h4 className="text-xl font-bold mb-4">Follow Us</h4>
                 <div className="space-x-10">
                   <a
@@ -108,24 +108,13 @@ export default function Footer() {
                     <i className="fab fa-linkedin fa-lg"></i>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
 
         <div className="text-center mt-8">
-          <p>
-            &copy; 2024. All Rights Reserved. Design by{" "}
-            <a
-              href="https://www.sheriff702.me"
-              className="text-blue-500 hover:underline"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Sheriff702
-            </a>
-            .
-          </p>
+          <p>&copy; 2024. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
