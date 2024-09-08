@@ -8,7 +8,7 @@ const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 // TestimonialCard Component
 const TestimonialCard = ({ name, job, image, text }) => (
-  <div className="bg-white  shadow-lg min-h-[350px] rounded-lg p-6 text-center">
+  <div className="bg-white  shadow-xl min-h-[400px] rounded-lg p-6 text-center">
     <Image
       src={image}
       alt={name}
@@ -74,7 +74,7 @@ export default function Testimonials() {
       name: "Fatima Saeed",
       job: "Marketing Manager",
       image: "/images/fatima.png",
-      text: "Saudi-ID has revolutionized our marketing team's ability to securely and efficiently manage client identities. Its user-friendly interface and advanced security features have provided us with the confidence we need to handle sensitive data with ease.",
+      text: "Saudi-ID has revolutionized our marketing team's ability to securely and efficiently manage client identities.It's a game-changer for any business looking to streamline their operations.",
     },
   ];
 
@@ -82,7 +82,7 @@ export default function Testimonials() {
   if (!mounted) return null;
 
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="bg-gray-100 py-14">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">
           What our customers say about us.

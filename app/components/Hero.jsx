@@ -44,7 +44,7 @@ const Hero = () => {
               identity verification with the most advanced technology.
             </p>
           </div>
-          {/* Image - Hidden on mobile, visible on desktop */}
+
           <div className="absolute md:relative w-[250px]  lg:w-[500px] -bottom-10  h-full top-0 left-24  z-0 md:z-auto">
             <Image
               src="/images/kufiya.png"
@@ -115,7 +115,7 @@ const Hero = () => {
               solutions designed for the modern world.
             </p>
           </div>
-          <div className="absolute md:relative w-[300px]  md:w-[450px] h-full top-0 left-10 lg:left-16 z-0 md:z-auto">
+          <div className="absolute md:relative w-[300px]  md:w-[800px] h-full top-0 left-10 lg:left-42 z-0 md:z-auto">
             <Image
               src="/images/hijab.png"
               alt="Image 4"
