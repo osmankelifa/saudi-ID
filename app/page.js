@@ -1,6 +1,6 @@
 // pages/index.js
 import dynamic from "next/dynamic";
-import Header from "./components/Header";
+
 import Navbar from "./components/Navbar";
 
 import Services from "./components/Services";
@@ -16,7 +16,6 @@ import Hero from "./components/Hero";
 export default function Home() {
   return (
     <>
-      <Header />
       <Navbar />
       <Hero />
 

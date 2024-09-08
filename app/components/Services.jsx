@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="h-[90dvh] flex items-center bg-white py-16"
+      className="h-[90dvh] mt-20 md:mt-0 flex items-center bg-white py-16"
     >
       <div className="container  mx-auto flex flex-col lg:flex-row items-center justify-between px-4">
         {/* Left Column: Image and SVG */}

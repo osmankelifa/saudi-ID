@@ -44,7 +44,7 @@ export default function Navbar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } md:flex md:items-center md:space-x-6 text-gray-700 absolute top-20 left-0 right-0 md:static backdrop-blur-xl md:bg-transparent z-20 md:z-auto`}
+          } md:flex md:items-center md:space-x-6 text-gray-700 absolute top-20 left-0 right-0 md:static md:backdrop-blur-0 backdrop-blur-xl md:bg-transparent z-20 md:z-auto`}
         >
           <ul className="flex flex-col text-xl md:flex-row md:space-x-6 space-y-2 md:space-y-0 text-gray-700">
             <li>
