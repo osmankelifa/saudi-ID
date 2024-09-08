@@ -30,7 +30,7 @@ export default function Services() {
 
         <div className="w-full lg:w-5/12">
           <h1 className="text-3xl md:text-5xl font-extrabold text-slate-800 mb-4 sm:justify-center text-center md:text-start leading-tight drop-shadow-md">
-            Revolutionize Your <span className="text-green-600">Identity</span>{" "}
+            Revolutionize Your <span className="text-green-500">Identity</span>{" "}
             with <span className="text-green-500">Saudi-ID</span>
           </h1>
           <svg

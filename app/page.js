@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import NumberBlock from "./components/NumberBlock";
+
 import Testimonials from "./components/Testimonials";
 import FeaturesList from "./components/FeatureList";
 import LogoArea from "./components/LogoArea";
