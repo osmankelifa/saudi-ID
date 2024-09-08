@@ -11,8 +11,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-transparent bg-gradient-to-t from-green-300 to-white    z-50 shadow-md">
-      <div className="container  mx-auto px-4 py-8 flex justify-end   items-center">
+    <nav className="bg-transparent shadow-xl  bg-gradient-to-t from-green-300 to-white z-50 ">
+      <div className="container   mx-auto px-4 py-8 flex justify-end     items-center">
         <Image
           src="/logo/logo1.png"
           alt="Logo"
@@ -44,7 +44,7 @@ export default function Navbar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } md:flex md:items-center md:space-x-6 text-gray-700 absolute top-20 l px-10 right-0 md:static md:backdrop-blur-0 backdrop-blur-xl  md:border-none shadow-lg  md:bg-transparent z-20 md:z-auto`}
+          } md:flex md:items-center md:space-x-6 text-gray-700 absolute top-20 l px-10 right-0 md:static md:backdrop-blur-0 backdrop-blur-xl rounded-lg shadow-xl md:shadow-none  md:border-none  md:bg-transparent z-20 md:z-auto`}
         >
           <ul className="flex flex-col text-xl md:flex-row  md:space-x-6 space-y-2 md:space-y-0 text-gray-700">
             <li>

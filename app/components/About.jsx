@@ -9,7 +9,7 @@ export default function About() {
           <div className="lg:w-1/2 mb-8 lg:mt-20">
             <h2 className="lg:text-4xl text-3xl md:text-start text-center font-bold mb-4 leading-tight">
               Explore The Services <br />
-              We Offer with Saudi-ID
+              We Offer with <span className="text-green-500">Saudi-ID</span>
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               Saudi-ID is a secure digital identity solution designed to
