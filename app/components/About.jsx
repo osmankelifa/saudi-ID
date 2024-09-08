@@ -11,7 +11,7 @@ export default function About() {
               Explore The Services <br />
               We Offer with <span className="text-green-500">Saudi-ID</span>
             </h2>
-            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+            <p className="text-lg text-gray-600 mb-6 mr-16 leading-relaxed">
               Saudi-ID is a secure digital identity solution designed to
               simplify and protect your online interactions. Saudi-ID allows
               users to verify their identity online, ensuring safe access to a
