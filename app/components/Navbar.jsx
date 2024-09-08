@@ -44,12 +44,13 @@ export default function Navbar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } md:flex md:items-center md:space-x-6 text-gray-700 absolute top-20 left-0 right-0 md:static md:backdrop-blur-0 backdrop-blur-xl md:bg-transparent z-20 md:z-auto`}
+          } md:flex md:items-center md:space-x-6 text-gray-700 absolute top-20 l px-10 right-0 md:static md:backdrop-blur-0 backdrop-blur-xl  md:border-none shadow-lg  md:bg-transparent z-20 md:z-auto`}
         >
-          <ul className="flex flex-col text-xl md:flex-row md:space-x-6 space-y-2 md:space-y-0 text-gray-700">
+          <ul className="flex flex-col text-xl md:flex-row  md:space-x-6 space-y-2 md:space-y-0 text-gray-700">
             <li>
               <Link
                 href="/"
+                onClick={closeMenu}
                 className="relative uppercase text-lg font-cabin w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-cente"
               >
                 Home

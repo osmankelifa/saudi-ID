@@ -33,29 +33,31 @@ const Hero = () => {
     >
       {/* Slide 1 */}
       <SwiperSlide>
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 h-[60vh] md:h-[70vh] bg-green-300  ">
-          <div className="flex flex-col items-start p-6 md:pl-40 justify-center">
-            <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-md">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 h-[60vh] md:h-[70vh] bg-green-300">
+          <div className="flex  flex-col lg:pt-0 pt-52 md:pl-40 justify-center z-10 ">
+            <h1 className="text-4xl backdrop-blur-md  md:text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-md">
               Unlock Your <br /> Future with{" "}
               <span className="text-green-500">Saudi-ID</span>
             </h1>
-            <p className="mb-6 text-lg md:text-xl text-white/90 leading-relaxed">
+            <p className=" text-lg backdrop-blur-md  md:text-xl  text-white/90 leading-relaxed">
               A seamless solution for your daily life. <br /> Elevate your
               identity verification with the most advanced technology.
             </p>
           </div>
-
           {/* Image - Hidden on mobile, visible on desktop */}
-          <div className="relative w-[360px] -right-16 h-full hidden md:block">
-            <div className="relative w-full  h-full ">
-              <Image
-                src="/images/kufiya.png"
-                alt="Image 3"
-                fill
-                priority
-                className="object-contain object-bottom"
-              />
-            </div>
+          <div className="absolute md:relative w-[250px]  md:w-[350px] h-full top-0 left-24  md:left-52 z-0 md:z-auto">
+            <Image
+              src="/images/kufiya.png"
+              alt="Image 4"
+              fill
+              className="object-contain object-bottom md:block hidden"
+            />
+            <Image
+              src="/images/kufiya.png"
+              alt="Image 4"
+              fill
+              className="object-cover object-bottom opacity-50 md:block hidden"
+            />
           </div>
         </div>
       </SwiperSlide>
@@ -92,26 +94,29 @@ const Hero = () => {
       {/* Slide 3 */}
       <SwiperSlide>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 h-[60vh] md:h-[70vh] bg-green-300">
-          <div className="flex flex-col items-start p-6 md:pl-40 justify-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Unlock Your <br /> Future with Saudi-ID
+          <div className="flex  flex-col lg:pt-0 pt-52 md:pl-40 justify-center z-10 ">
+            <h1 className="text-4xl backdrop-blur-md  md:text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-md">
+              Unlock Your <br /> Future with{" "}
+              <span className="text-green-500">Saudi-ID</span>
             </h1>
-            <p className="mb-6 text-lg md:text-2xl">
+            <p className=" text-lg backdrop-blur-md  md:text-xl  text-white/90 leading-relaxed">
               A seamless solution for your daily life. <br /> Elevate your
-              identity verification.
+              identity verification with the most advanced technology.
             </p>
           </div>
-
-          <div className="relative w-[400px] -right-16 h-full hidden md:block">
-            <div className="relative w-full  h-full ">
-              <Image
-                src="/images/hijab.png"
-                alt="Image 1"
-                fill
-                loading="eager"
-                className="object-contain object-bottom"
-              />
-            </div>
+          <div className="absolute md:relative w-[300px]  md:w-[450px] h-full top-0 left-10 md:left-28 z-0 md:z-auto">
+            <Image
+              src="/images/hijab.png"
+              alt="Image 4"
+              fill
+              className="object-contain  object-bottom md:block hidden"
+            />
+            <Image
+              src="/images/hijab.png"
+              alt="Image 4"
+              fill
+              className="object-cover object-bottom opacity-50 md:block hidden"
+            />
           </div>
         </div>
       </SwiperSlide>
@@ -129,18 +134,18 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="absolute md:relative w-full h-full top-0 left-0 z-0 md:z-auto">
+          <div className="absolute md:relative w-[300px]  md:w-[500px] h-full top-0 left-10 z-0 md:z-auto">
             <Image
-              src="/images/green.png"
+              src="/images/green2.png"
               alt="Image 4"
               fill
               className="object-contain object-bottom md:block hidden"
             />
             <Image
-              src="/images/green.png"
+              src="/images/green2.png"
               alt="Image 4"
               fill
-              className="object-cover object-bottom opacity-50 md:hidden"
+              className="object-cover object-bottom opacity-50 md:block hidden"
             />
           </div>
         </div>
