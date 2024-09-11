@@ -50,6 +50,7 @@ const Hero = () => {
               src="/images/kufiya.png"
               alt="Image 4"
               fill
+              priority
               style={{
                 objectFit: "contain",
               }}
@@ -59,6 +60,7 @@ const Hero = () => {
               src="/images/kufiya.png"
               alt="Image 4"
               fill
+              priority
               style={{
                 objectFit: "contain",
               }}
@@ -89,6 +91,7 @@ const Hero = () => {
                 objectFit: "contain",
               }}
               fill
+              priority
               className=" object-bottom md:block hidden"
             />
             <Image
@@ -98,6 +101,7 @@ const Hero = () => {
                 objectFit: "contain",
               }}
               fill
+              priority
               className=" object-bottom opacity-50 md:block hidden"
             />
           </div>
@@ -123,6 +127,7 @@ const Hero = () => {
                 objectFit: "contain",
               }}
               fill
+              priority
               className="object-contain  object-bottom "
             />
             <Image
@@ -132,6 +137,7 @@ const Hero = () => {
                 objectFit: "contain",
               }}
               fill
+              priority
               className="object-cover object-bottom opacity-50 md:block hidden"
             />
           </div>
@@ -159,6 +165,7 @@ const Hero = () => {
                 objectFit: "contain",
               }}
               fill
+              priority
               className=" object-bottom md:block hidden"
             />
             <Image
@@ -168,6 +175,7 @@ const Hero = () => {
                 objectFit: "contain",
               }}
               fill
+              priority
               className=" object-bottom opacity-50 md:block hidden"
             />
           </div>
