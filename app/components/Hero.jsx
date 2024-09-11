@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 const Hero = () => {
   return (
     <Swiper
-      className="bg-green-300 "
+      className="bg-green-300 mt-20 "
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}

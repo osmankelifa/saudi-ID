@@ -11,12 +11,12 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-transparent shadow-xl  bg-gradient-to-t from-green-300 to-white z-50 ">
-      <div className="container   mx-auto px-4 py-8 flex justify-end     items-center">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+      <div className="container   mx-auto px-4 py-8 flex justify-end items-center">
         <Image
           src="/logo/logo1.png"
-          alt="Logo"
-          width={450}
+          alt="LoGo"
+          width={550}
           height={300}
           className="absolute -top-18 left-0"
         />
