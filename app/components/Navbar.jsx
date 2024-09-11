@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="container   mx-auto px-4 py-8 flex justify-end items-center">
         <Image
           src="/logo/logo1.png"
-          alt="Logo"
+          alt="LoGo"
           width={550}
           height={300}
           className="absolute -top-18 left-0"
