@@ -18,7 +18,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Message sent successfully!");
+          alert("Message sentaaa successfully!");
         },
         (error) => {
           console.log(error.text);
