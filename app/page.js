@@ -21,9 +21,9 @@ export default function Home() {
       <Services />
       <About />
       {/* <NumberBlock /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* <FeaturesList /> */}
-      <NewsSection />
+      {/* <NewsSection /> */}
       {/* <LogoArea /> */}
 
       <Footer />
