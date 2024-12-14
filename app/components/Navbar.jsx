@@ -12,13 +12,13 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
-      <div className="container   mx-auto px-4 py-8 flex justify-end items-center">
+      <div className="container  mx-auto px-4 py-8 flex justify-end items-center">
         <Image
-          src="/logo/logo1.png"
+          src="/logo/13.png"
           alt="LoGo"
           width={550}
           height={300}
-          className="absolute -top-18 left-0"
+          className="absolute -top-18 left-0 w-28 h-28 object-cover object-center scale-150 pl-6"
         />
 
         <button
